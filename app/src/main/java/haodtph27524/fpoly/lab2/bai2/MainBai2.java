@@ -12,7 +12,9 @@ import haodtph27524.fpoly.lab2.R;
 import haodtph27524.fpoly.lab2.bai1.BackgroundTask_GET;
 
 public class MainBai2 extends AppCompatActivity implements View.OnClickListener {
-    public static final String SERVER_NAME = "http://192.168.1.9:80/haodt_ph27524/rectangle_post.php";
+   public static final String SERVER_NAME = "http://192.168.1.3:80/haodt_ph27524/rectangle_post.php";
+    //public static final String SERVER_NAME = "http://10.24.49.198:3000/rectangle_POST";
+
     private EditText edWidth;
     private EditText edLength;
     private Button btnSend,btnBack;

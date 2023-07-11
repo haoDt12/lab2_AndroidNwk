@@ -11,7 +11,7 @@ import android.widget.TextView;
 import haodtph27524.fpoly.lab2.R;
 
 public class MainBai1 extends AppCompatActivity implements View.OnClickListener {
-    public static final String SERVER_NAME = "http://192.168.1.9:80/haodt_ph27524/student_get.php";
+    public static final String SERVER_NAME = "http://192.168.1.3:80/haodt_ph27524/student_get.php";
     private EditText edName;
     private EditText edScore;
     private Button btnSend;
